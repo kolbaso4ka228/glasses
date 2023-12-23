@@ -1,5 +1,6 @@
 body{
     background-color: darkgray;
+    background-image: url(images/seamlessGlasses.jpg);
 }
 h1{
     text-align: center;
@@ -8,16 +9,18 @@ h2{
     text-align: center;
 }
 .game-item{
-    width: 250px;
+    max-width: 250px;
     text-align: center;
     list-style: none;
-    background-color: rgb(249, 249, 249);
+    background-color: rgba(249, 249, 249,0.9);
     border-radius: 15px;
     border:2px solid black;
     padding-bottom: 10px;
     display: inline-block;
     text-align: center;
-    margin-right: 8px;
+    margin: 8px;
+    min-height: 350px;
+    vertical-align: top;
 }
 .game-img{
     width: 100%;
